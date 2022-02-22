@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: url(./images/depositphotos_144049331-stock-photo-magician-hat-with-magic-wand.jpeg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #690001;
+}
+
+body{
+    font-family: 'Mate SC', serif;
+} 
+.container{
+    
+    width: 960px;
+    min-width: 580px;
+    justify-items: center;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+}    
+h1{
+    text-align: center;
+    font-size:50px;
+    margin-top: 135px ;
+    
+}    
+input{
+    padding: 5px;
+    width: 15%;
+    margin-top: 30px;
+    
+}
+#guess-field input:focus{
+    outline: none;
+    border-color: black;
+}
+button{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family:  'Mate SC', serif;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+}
